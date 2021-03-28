@@ -1,0 +1,389 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 23px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    .mob_header
+    {
+        padding: 10px 0;
+    }
+
+
+    .mob_header .contacts
+    {
+        width: calc(50% - 15px);
+    }
+
+    .mob_header .contacts .phone
+    {
+        font-size: 17px;
+        line-height: 19px;
+    }
+
+    .mob_header .contacts .email
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .mob_header .order_btn
+    {
+        line-height: 15px;
+
+        width: calc(50% - 5px);
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*----------------
+        Page title
+    ----------------*/
+    .page_title
+    {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title
+    {
+        letter-spacing: .02em;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *.width1of3,
+    .form .columns > *.width2of3
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .form .input,
+    .form textarea
+    {
+        font-size: 14px;
+
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+
+
+    .form .field.row > *
+    {
+        width: 100%;
+    }
+
+    .form .field.row > * + *
+    {
+        margin-top: 10px;
+    }
+
+
+    .form .prefix
+    {
+        font-size: 15px;
+
+        min-width: 30px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        min-height: 46px;
+        padding: 8px 24px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs .data .text_block .warning
+    {
+        padding-right: 20px;
+    }
+
+    .tariffs .data .text_block .warning .exp
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        width: 100%;
+        height: auto;
+        margin: 20px 0 0;
+        padding: 12px 15px;
+
+        transform: none;
+        text-align: left;
+
+        border-radius: 0;
+    }
+
+
+
+    .tariffs .price_list table tbody td,
+    .tariffs .price_list table td:first-child,
+    .tariffs .price_list table td:nth-last-child(1)
+    {
+        width: 33.333%;
+    }
+
+    .tariffs .price_list table td:nth-last-child(1)
+    {
+        position: relative;
+        right: 0;
+        bottom: 0;
+
+        width: 100%;
+        margin-top: 15px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .review
+    {
+        padding: 15px 18px;
+    }
+
+
+    .reviews .review.answer
+    {
+        margin-left: 0;
+    }
+
+    .reviews .review.answer:before
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images .thumbs
+    {
+        width: 280px;
+    }
+
+
+
+    .product_info .prices .title
+    {
+        font-size: 17px;
+
+        padding-bottom: 7px;
+    }
+
+
+    .product_info .stock_info .period .form .prefix
+    {
+        width: 31px;
+        min-width: 31px;
+    }
+
+
+    .product_info .warning
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        padding: 20px 25px 20px 70px;
+    }
+
+    .product_info .warning .icon
+    {
+        top: 20px;
+        left: 20px;
+    }
+
+
+
+    .product_info .features .title
+    {
+        font-size: 20px;
+    }
+
+    .product_info .features .name
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+
+        --products_count: 1;
+    }
+
+    .products .row > *
+    {
+        width: calc(100% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+    .products .all_link .exp
+    {
+        font-size: 13px;
+        line-height: 17px;
+
+        margin-top: 12px;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form .warning
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        letter-spacing: .02em;
+    }
+
+
+    .contacts_info .location,
+    .contacts_info .time,
+    .contacts_info .phone,
+    .contacts_info .email
+    {
+        padding-left: 36px;
+    }
+
+
+    .contacts_info .map_wrap
+    {
+        padding-bottom: 100%;
+    }
+
+
+
+    /*--------------
+        Autopark
+    --------------*/
+    .autopark .car .col_left,
+    .autopark .car .col_right
+    {
+        width: 100%;
+    }
+
+    .autopark .car .col_right
+    {
+        border-top: 1px solid #e0e0e0;
+        border-left: none;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .slide
+    {
+        padding: 40px 50px;
+    }
+
+    .main_slider .slide .title
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row > *
+    {
+        width: calc(100% - 20px);
+    }
+
+
+
+    /*-----------
+        Terms
+    -----------*/
+    .terms .row
+    {
+        margin-bottom: -15px;
+    }
+
+
+    .terms .row > *
+    {
+        width: calc(100% - 20px);
+        margin-bottom: 15px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

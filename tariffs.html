@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#c22221">
+		<meta name="theme-color" content="#c22221">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/datepicker.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1179.css" media="print, (max-width: 1179px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="close"></button>
+
+					<div class="mob_scroll">
+						<div class="top">
+							<div class="cont row">
+								<div class="links">
+									<div class="item">
+										<a href="/">О компании</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Условия проката</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Автопарк</a>
+									</div>
+
+									<div class="item">
+										<a class="active">Тарифы</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Отзывы</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Контакты и реквизиты</a>
+									</div>
+								</div>
+
+								<button class="order_btn">
+									<span>Забронировать онлайн</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+								</button>
+							</div>
+						</div>
+
+
+						<div class="info">
+							<div class="cont row">
+								<div class="logo">
+									<img src="images/logo.png" alt="">
+								</div>
+
+								<div class="location">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+									<span>Москва, ул.Ярославская, д.15,<br> корп.3, 1-й этаж,офис 34</span>
+								</div>
+
+								<div class="time">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_time"></use></svg>
+									<span>Пн-Пт с 10 до 20ч.<br> Сб-Вс с 11 до 19ч</span>
+								</div>
+
+								<div class="contacts">
+									<div class="phone">
+										<a href="tel:+74957783272">+7 495 778-32-72</a>
+									</div>
+
+									<div class="email">
+										<a href="mailto:karatrent@mail.ru">karatrent@mail.ru</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="bottom">
+							<div class="cont">
+								<nav class="menu">
+									<div class="item home">
+										<a href="/">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_home"></use></svg>
+										</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Хиты месяца</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Эконом</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Средний</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Бизнес</a>
+									</div>
+
+									<div class="item autopark">
+										<a href="/">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_auto"></use></svg>
+											<span>Автопарк</span>
+										</a>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont">
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<div class="contacts">
+							<div class="phone">
+								<a href="tel:+74957783272">+7 495 778-32-72</a>
+							</div>
+
+							<div class="email">
+								<a href="mailto:karatrent@mail.ru">karatrent@mail.ru</a>
+							</div>
+						</div>
+
+						<button class="order_btn">Забронировать онлайн</button>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</section>
+
+
+				<section class="breadcrumbs">
+					<div class="cont">
+						<a href="/">Главная</a> <span class="sep">/</span>
+						<span class="current">Автопарк</span>
+					</div>
+				</section>
+
+
+				<section class="tariffs block">
+					<div class="cont">
+						<div class="data row">
+							<div class="text_block">
+								<h1>Тарифы</h1>
+
+								<ul>
+									<li><b>Минимальный срок аренды 2-е суток</b></li>
+
+									<li>Тариф "свыше 30 дней" действует только при ЕДИНОВРЕМЕННОЙ оплате
+										указанного в тарифной сетке срока-т.е полной оплаты за 31 день</li>
+
+									<li>По Москве и МО пробег не ограничен, при выезде за пределы МО требуется согласование с менеджером и существует лимит на пробег автомобиля - 300 км в сутки, превышение 6 руб./км  для автомобилей среднего и бизнес-класса 8-10 руб./км, <a href="/">все условия проката</a></li>
+								</ul>
+
+								<div class="warning">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_warning"></use></svg>
+
+									ВНИМАНИЕ! Все специальные предложения на прокат автомобилей действуют при заключении договора  на срок более трёх дней!
+
+									<div class="exp">Обращаем Ваше  внимание  в выходные и  праздничные  дни мы  работаем до 18:30</div>
+								</div>
+
+								<p>Доставка автомобиля по городу в пределах МКАД - 1000 руб.</p>
+							</div>
+
+							<div class="img">
+								<img src="images/tmp/about_img.jpg" alt="">
+							</div>
+						</div>
+
+
+						<div class="price_list">
+							<div class="block_title">Эконом</div>
+
+							<table>
+								<thead>
+									<tr>
+										<th>Марка машины</th>
+										<th>2-5 дней</th>
+										<th>6-15 дней</th>
+										<th>16-30 дней</th>
+										<th>свыше 30 дней</th>
+										<th>Залог</th>
+										<th></th>
+									</tr>
+								</thead>
+
+								<tbody>
+									<tr>
+										<td class="car">
+											<a href="/">
+												<div class="img">
+													<img data-src="images/tmp/price_list_thumb.jpg" alt="" class="lozad">
+												</div>
+												<span>Киа Рио 1,4 МКП</span>
+											</a>
+										</td>
+										<td data-column="2-5 дней">1 500</td>
+										<td data-column="6-15 дней">1 400</td>
+										<td data-column="16-30 дней">1 300</td>
+										<td data-column="свыше 30 дней">1 200</td>
+										<td data-column="Залог">7 000</td>
+										<td>
+											<button class="order_btn">
+												<span>Заказать</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+											</button>
+										</td>
+									</tr>
+
+									<tr class="bg">
+										<td class="car">
+											<a href="/">
+												<div class="img">
+													<img data-src="images/tmp/price_list_thumb.jpg" alt="" class="lozad">
+												</div>
+												<span>Лада Ларгус</span>
+
+												<div class="sticker stock">Акция</div>
+											</a>
+										</td>
+										<td data-column="2-5 дней">1 500</td>
+										<td data-column="6-15 дней">1 400</td>
+										<td data-column="16-30 дней">1 300</td>
+										<td data-column="свыше 30 дней">1 200</td>
+										<td data-column="Залог">7 000</td>
+										<td>
+											<button class="order_btn">
+												<span>Заказать</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+											</button>
+										</td>
+									</tr>
+
+									<tr>
+										<td class="car">
+											<a href="/">
+												<div class="img">
+													<img data-src="images/tmp/price_list_thumb.jpg" alt="" class="lozad">
+												</div>
+												<span>Хундай Солярис АКПП</span>
+											</a>
+										</td>
+										<td data-column="2-5 дней">1 500</td>
+										<td data-column="6-15 дней">1 400</td>
+										<td data-column="16-30 дней">1 300</td>
+										<td data-column="свыше 30 дней">1 200</td>
+										<td data-column="Залог">7 000</td>
+										<td>
+											<button class="order_btn">
+												<span>Заказать</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+											</button>
+										</td>
+									</tr>
+
+									<tr class="bg">
+										<td class="car">
+											<a href="/">
+												<div class="img">
+													<img data-src="images/tmp/price_list_thumb.jpg" alt="" class="lozad">
+												</div>
+												<span>Рено Логан АКПП</span>
+
+												<div class="sticker stock">Акция</div>
+											</a>
+										</td>
+										<td data-column="2-5 дней">1 500</td>
+										<td data-column="6-15 дней">1 400</td>
+										<td data-column="16-30 дней">1 300</td>
+										<td data-column="свыше 30 дней">1 200</td>
+										<td data-column="Залог">7 000</td>
+										<td>
+											<button class="order_btn">
+												<span>Заказать</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+											</button>
+										</td>
+									</tr>
+
+									<tr>
+										<td class="car">
+											<a href="/">
+												<div class="img">
+													<img data-src="images/tmp/price_list_thumb.jpg" alt="" class="lozad">
+												</div>
+												<span>Фольксваген Поло АКПП</span>
+											</a>
+										</td>
+										<td data-column="2-5 дней">1 500</td>
+										<td data-column="6-15 дней">1 400</td>
+										<td data-column="16-30 дней">1 300</td>
+										<td data-column="свыше 30 дней">1 200</td>
+										<td data-column="Залог">7 000</td>
+										<td>
+											<button class="order_btn">
+												<span>Заказать</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+											</button>
+										</td>
+									</tr>
+
+									<tr>
+										<td class="car">
+											<a href="/">
+												<div class="img">
+													<img data-src="images/tmp/price_list_thumb.jpg" alt="" class="lozad">
+												</div>
+												<span>Форд Фиеста АКПП</span>
+											</a>
+										</td>
+										<td data-column="2-5 дней">1 500</td>
+										<td data-column="6-15 дней">1 400</td>
+										<td data-column="16-30 дней">1 300</td>
+										<td data-column="свыше 30 дней">1 200</td>
+										<td data-column="Залог">7 000</td>
+										<td>
+											<button class="order_btn">
+												<span>Заказать</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+											</button>
+										</td>
+									</tr>
+
+									<tr>
+										<td class="car">
+											<a href="/">
+												<div class="img">
+													<img data-src="images/tmp/price_list_thumb.jpg" alt="" class="lozad">
+												</div>
+												<span>Шкода Рапид АКПП</span>
+											</a>
+										</td>
+										<td data-column="2-5 дней">1 500</td>
+										<td data-column="6-15 дней">1 400</td>
+										<td data-column="16-30 дней">1 300</td>
+										<td data-column="свыше 30 дней">1 200</td>
+										<td data-column="Залог">7 000</td>
+										<td>
+											<button class="order_btn">
+												<span>Заказать</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+											</button>
+										</td>
+									</tr>
+
+									<tr>
+										<td class="car">
+											<a href="/">
+												<div class="img">
+													<img data-src="images/tmp/price_list_thumb.jpg" alt="" class="lozad">
+												</div>
+												<span>Киа Рио XLine</span>
+											</a>
+										</td>
+										<td data-column="2-5 дней">1 500</td>
+										<td data-column="6-15 дней">1 400</td>
+										<td data-column="16-30 дней">1 300</td>
+										<td data-column="свыше 30 дней">1 200</td>
+										<td data-column="Залог">7 000</td>
+										<td>
+											<button class="order_btn">
+												<span>Заказать</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+											</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+
+						<div class="price_list">
+							<div class="block_title">Средний</div>
+
+							<table>
+								<thead>
+									<tr>
+										<th>Марка машины</th>
+										<th>2-5 дней</th>
+										<th>6-15 дней</th>
+										<th>16-30 дней</th>
+										<th>свыше 30 дней</th>
+										<th>Залог</th>
+										<th></th>
+									</tr>
+								</thead>
+
+								<tbody>
+									<tr>
+										<td class="car">
+											<a href="/">
+												<div class="img">
+													<img data-src="images/tmp/price_list_thumb.jpg" alt="" class="lozad">
+												</div>
+												<span>Киа Рио 1,4 МКП</span>
+											</a>
+										</td>
+										<td data-column="2-5 дней">1 500</td>
+										<td data-column="6-15 дней">1 400</td>
+										<td data-column="16-30 дней">1 300</td>
+										<td data-column="свыше 30 дней">1 200</td>
+										<td data-column="Залог">7 000</td>
+										<td>
+											<button class="order_btn">
+												<span>Заказать</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+											</button>
+										</td>
+									</tr>
+
+									<tr class="bg">
+										<td class="car">
+											<a href="/">
+												<div class="img">
+													<img data-src="images/tmp/price_list_thumb.jpg" alt="" class="lozad">
+												</div>
+												<span>Лада Ларгус</span>
+
+												<div class="sticker stock">Акция</div>
+											</a>
+										</td>
+										<td data-column="2-5 дней">1 500</td>
+										<td data-column="6-15 дней">1 400</td>
+										<td data-column="16-30 дней">1 300</td>
+										<td data-column="свыше 30 дней">1 200</td>
+										<td data-column="Залог">7 000</td>
+										<td>
+											<button class="order_btn">
+												<span>Заказать</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+											</button>
+										</td>
+									</tr>
+
+									<tr>
+										<td class="car">
+											<a href="/">
+												<div class="img">
+													<img data-src="images/tmp/price_list_thumb.jpg" alt="" class="lozad">
+												</div>
+												<span>Хундай Солярис АКПП</span>
+											</a>
+										</td>
+										<td data-column="2-5 дней">1 500</td>
+										<td data-column="6-15 дней">1 400</td>
+										<td data-column="16-30 дней">1 300</td>
+										<td data-column="свыше 30 дней">1 200</td>
+										<td data-column="Залог">7 000</td>
+										<td>
+											<button class="order_btn">
+												<span>Заказать</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+											</button>
+										</td>
+									</tr>
+
+									<tr class="bg">
+										<td class="car">
+											<a href="/">
+												<div class="img">
+													<img data-src="images/tmp/price_list_thumb.jpg" alt="" class="lozad">
+												</div>
+												<span>Рено Логан АКПП</span>
+
+												<div class="sticker stock">Акция</div>
+											</a>
+										</td>
+										<td data-column="2-5 дней">1 500</td>
+										<td data-column="6-15 дней">1 400</td>
+										<td data-column="16-30 дней">1 300</td>
+										<td data-column="свыше 30 дней">1 200</td>
+										<td data-column="Залог">7 000</td>
+										<td>
+											<button class="order_btn">
+												<span>Заказать</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+											</button>
+										</td>
+									</tr>
+
+									<tr>
+										<td class="car">
+											<a href="/">
+												<div class="img">
+													<img data-src="images/tmp/price_list_thumb.jpg" alt="" class="lozad">
+												</div>
+												<span>Фольксваген Поло АКПП</span>
+											</a>
+										</td>
+										<td data-column="2-5 дней">1 500</td>
+										<td data-column="6-15 дней">1 400</td>
+										<td data-column="16-30 дней">1 300</td>
+										<td data-column="свыше 30 дней">1 200</td>
+										<td data-column="Залог">7 000</td>
+										<td>
+											<button class="order_btn">
+												<span>Заказать</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+											</button>
+										</td>
+									</tr>
+
+									<tr>
+										<td class="car">
+											<a href="/">
+												<div class="img">
+													<img data-src="images/tmp/price_list_thumb.jpg" alt="" class="lozad">
+												</div>
+												<span>Форд Фиеста АКПП</span>
+											</a>
+										</td>
+										<td data-column="2-5 дней">1 500</td>
+										<td data-column="6-15 дней">1 400</td>
+										<td data-column="16-30 дней">1 300</td>
+										<td data-column="свыше 30 дней">1 200</td>
+										<td data-column="Залог">7 000</td>
+										<td>
+											<button class="order_btn">
+												<span>Заказать</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+											</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+
+						<div class="price_list">
+							<div class="block_title">Бизнес</div>
+
+							<table>
+								<thead>
+									<tr>
+										<th>Марка машины</th>
+										<th>2-5 дней</th>
+										<th>6-15 дней</th>
+										<th>16-30 дней</th>
+										<th>свыше 30 дней</th>
+										<th>Залог</th>
+										<th></th>
+									</tr>
+								</thead>
+
+								<tbody>
+									<tr>
+										<td class="car">
+											<a href="/">
+												<div class="img">
+													<img data-src="images/tmp/price_list_thumb.jpg" alt="" class="lozad">
+												</div>
+												<span>Хундай Солярис АКПП</span>
+											</a>
+										</td>
+										<td data-column="2-5 дней">1 500</td>
+										<td data-column="6-15 дней">1 400</td>
+										<td data-column="16-30 дней">1 300</td>
+										<td data-column="свыше 30 дней">1 200</td>
+										<td data-column="Залог">7 000</td>
+										<td>
+											<button class="order_btn">
+												<span>Заказать</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+											</button>
+										</td>
+									</tr>
+
+									<tr>
+										<td class="car">
+											<a href="/">
+												<div class="img">
+													<img data-src="images/tmp/price_list_thumb.jpg" alt="" class="lozad">
+												</div>
+												<span>Фольксваген Поло АКПП</span>
+											</a>
+										</td>
+										<td data-column="2-5 дней">1 500</td>
+										<td data-column="6-15 дней">1 400</td>
+										<td data-column="16-30 дней">1 300</td>
+										<td data-column="свыше 30 дней">1 200</td>
+										<td data-column="Залог">7 000</td>
+										<td>
+											<button class="order_btn">
+												<span>Заказать</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+											</button>
+										</td>
+									</tr>
+
+									<tr>
+										<td class="car">
+											<a href="/">
+												<div class="img">
+													<img data-src="images/tmp/price_list_thumb.jpg" alt="" class="lozad">
+												</div>
+												<span>Форд Фиеста АКПП</span>
+											</a>
+										</td>
+										<td data-column="2-5 дней">1 500</td>
+										<td data-column="6-15 дней">1 400</td>
+										<td data-column="16-30 дней">1 300</td>
+										<td data-column="свыше 30 дней">1 200</td>
+										<td data-column="Залог">7 000</td>
+										<td>
+											<button class="order_btn">
+												<span>Заказать</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+											</button>
+										</td>
+									</tr>
+
+									<tr>
+										<td class="car">
+											<a href="/">
+												<div class="img">
+													<img data-src="images/tmp/price_list_thumb.jpg" alt="" class="lozad">
+												</div>
+												<span>Шкода Рапид АКПП</span>
+											</a>
+										</td>
+										<td data-column="2-5 дней">1 500</td>
+										<td data-column="6-15 дней">1 400</td>
+										<td data-column="16-30 дней">1 300</td>
+										<td data-column="свыше 30 дней">1 200</td>
+										<td data-column="Залог">7 000</td>
+										<td>
+											<button class="order_btn">
+												<span>Заказать</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+											</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="col_left">
+						<div class="logo">
+							<img src="images/logo2.png" alt="">
+						</div>
+
+						<div class="location">Москва, ул.Ярославская, д.15,<br> корп.3, 1-й этаж,офис 34</div>
+
+						<div class="copyright">&copy; 2007-2020</div>
+					</div>
+
+
+					<div class="menu">
+						<div><a href="/">О компании</a></div>
+						<div><a href="/">Условия проката</a></div>
+						<div><a href="/">Тарифы</a></div>
+						<div><a href="/">Отзывы клиентов</a></div>
+						<div><a href="/">Контакты и реквизиты</a></div>
+					</div>
+
+
+					<div class="menu">
+						<div><a href="/">Хиты месяца</a></div>
+						<div><a href="/">Эконом класс</a></div>
+						<div><a href="/">Средний класс</a></div>
+						<div><a href="/">Бизнес класс</a></div>
+						<div><a href="/">Автопарк</a></div>
+					</div>
+
+
+					<div class="contacts">
+						<div class="phone">
+							<a href="tel:+74957783272">+7 495 778-32-72</a>
+						</div>
+
+						<button class="order_btn">
+							<span>Забронировать</span>
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+						</button>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/datepicker.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

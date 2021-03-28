@@ -1,0 +1,625 @@
+@media print, (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .block
+    {
+        margin-bottom: 50px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    .mob_header .logo
+    {
+        width: calc(100% - 60px);
+    }
+
+    .mob_header .logo a,
+    .mob_header .logo img
+    {
+        width: 224px;
+    }
+
+
+    .mob_header .contacts
+    {
+        width: calc(100% - 218px);
+        margin-top: 12px;
+
+        text-align: left;
+
+        order: 3;
+    }
+
+
+    .mob_header .order_btn
+    {
+        margin-top: 12px;
+        margin-left: 20px;
+
+        order: 4;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*-----------------
+        Breadcrumbs
+    -----------------*/
+    .breadcrumbs
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        margin-bottom: 30px;
+        padding: 8px 0;
+    }
+
+
+
+    /*----------------
+        Page title
+    ----------------*/
+    .page_title
+    {
+        font-size: 26px;
+        line-height: 30px;
+
+        margin-bottom: 20px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *.width1of3,
+    .form .columns > *.width2of3
+    {
+        width: calc(50% - var(--form_columns_offset));
+    }
+
+
+    .form .line.row .label
+    {
+        font-size: 15px;
+
+        width: 100%;
+        min-height: 0;
+        margin: 0 0 8px;
+        padding-right: 0;
+
+        text-align: left;
+
+        justify-content: flex-start;
+    }
+
+    .form .line.row .field
+    {
+        width: 100%;
+    }
+
+
+    .form .price
+    {
+        padding: 15px 20px;
+    }
+
+    .form .price b
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h1
+    {
+        font-size: 25px;
+        line-height: 29px;
+    }
+
+    .text_block h2
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    .text_block img.right,
+    .text_block img.left
+    {
+        float: none;
+
+        max-width: 100%;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+    .text_block b,
+    .text_block strong
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*--------------------
+        Contacts block
+    --------------------*/
+    .contacts_block .phone
+    {
+        margin-bottom: 10px;
+    }
+
+    .contacts_block .phone a
+    {
+        font-size: 24px;
+    }
+
+
+    .contacts_block .or
+    {
+        width: 100%;
+        margin-bottom: 10px;
+
+        text-align: center;
+    }
+
+
+    .contacts_block .order_btn
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        min-height: 46px;
+        margin-left: 0;
+        padding: 6px 20px;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs .data .text_block
+    {
+        width: 100%;
+    }
+
+    .tariffs .data .text_block ul li
+    {
+        font-size: 14px;
+    }
+
+
+    .tariffs .data .text_block .warning
+    {
+        padding-right: 180px;
+    }
+
+    .text_block .warning .exp
+    {
+        right: -10px;
+    }
+
+
+    .tariffs .data .img
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .tariffs .data .img img
+    {
+        width: auto;
+        max-width: 100%;
+    }
+
+
+    .tariffs .price_list table tbody td,
+    .tariffs .price_list table td:first-child,
+    .tariffs .price_list table td:nth-last-child(1)
+    {
+        width: 25%;
+    }
+
+    .tariffs .price_list table td:nth-last-child(1)
+    {
+        top: auto;
+        bottom: 20px;
+
+        width: calc(50% - 20px);
+    }
+
+    .tariffs .price_list table tbody td.car
+    {
+        padding: 0;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .review
+    {
+        padding: 17px 20px;
+    }
+
+    .reviews .review .text
+    {
+        line-height: 22px;
+    }
+
+
+    .reviews .review.answer
+    {
+        padding: 16px 20px;
+    }
+
+
+
+    /*----------------
+        Add review
+    ----------------*/
+    .add_review .info .title
+    {
+        font-size: 23px;
+        line-height: 27px;
+    }
+
+    .add_review .info .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin-top: 15px;
+    }
+
+
+    .add_review .form .col_left,
+    .add_review .form .col_right
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .data
+    {
+        padding-bottom: 40px;
+
+        border-width: 7px;
+    }
+
+
+
+    .product_info .head
+    {
+        margin-bottom: 10px;
+        margin-left: -20px;
+    }
+
+    .product_info .head > *
+    {
+        max-width: calc(100% - 20px);
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .product_info .head .status
+    {
+        font-size: 13px;
+        line-height: 17px;
+
+        padding: 6px 14px;
+    }
+
+
+
+    .product_info .images
+    {
+        width: 100%;
+    }
+
+    .product_info .images .thumbs
+    {
+        width: 360px;
+    }
+
+
+
+    .product_info .info
+    {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+
+    .product_info .features
+    {
+        width: 100%;
+        margin-top: 25px;
+        padding-top: 25px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .block_title
+    {
+        font-size: 22px;
+    }
+
+
+
+    .products .row
+    {
+        margin-bottom: -25px;
+        margin-left: -25px;
+
+        --products_count: 2;
+    }
+
+    .products .row > *
+    {
+        width: calc(50% - 25px);
+        margin-bottom: 25px;
+        margin-left: 25px;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form .warning
+    {
+        line-height: 21px;
+
+        margin-bottom: 30px;
+        padding: 20px 20px 20px 70px;
+    }
+
+
+    .order_form .form .submit
+    {
+        padding: 0;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        line-height: 22px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .block_title
+    {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+
+
+    /*--------------
+        Autopark
+    --------------*/
+    .autopark .car .bottom
+    {
+        padding: 10px 15px;
+    }
+
+
+
+    .autopark .car .col_left,
+    .autopark .car .col_right
+    {
+        padding-bottom: 51px;
+    }
+
+
+    .autopark .car .thumb
+    {
+        height: 164px;
+    }
+
+    .autopark .car .name
+    {
+        line-height: 22px;
+
+        padding: 0 15px;
+    }
+
+    .autopark .car .price
+    {
+        letter-spacing: .02em;
+    }
+
+    .autopark .car .status,
+    .autopark .car .order_btn
+    {
+        font-size: 14px;
+    }
+
+    .autopark .car .features
+    {
+        font-size: 14px;
+
+        padding: 15px 18px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .text_block
+    {
+        width: 100%;
+    }
+
+
+    .about_info .img
+    {
+        width: 100%;
+        margin-top: 30px;
+
+        background: none;
+    }
+
+    .about_info .img img
+    {
+        width: auto;
+        max-width: 100%;
+    }
+
+
+
+    .about_why .advantages .row > *
+    {
+        width: calc(100% - 25px);
+    }
+
+
+
+    /*-----------------
+        Bottom text
+    -----------------*/
+    .bottom_text .btns .order_btn
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        min-height: 46px;
+        padding: 8px 24px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .slide .title
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*-----------
+        Terms
+    -----------*/
+    .terms .row .item
+    {
+        line-height: 20px;
+
+        padding-left: 25px;
+    }
+
+    .terms .row .item br
+    {
+        display: none;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        text-align: center;
+    }
+
+
+    footer .col_left
+    {
+        width: 100%;
+    }
+
+
+    footer .logo img
+    {
+        width: 240px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    footer .contacts
+    {
+        width: 100%;
+        margin-top: 20px;
+
+        text-align: center;
+    }
+
+    footer .order_btn
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        min-height: 46px;
+        margin-top: 8px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 6px 20px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .fancybox-slide--html
+    {
+        padding: 20px;
+    }
+}

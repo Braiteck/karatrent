@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#c22221">
+		<meta name="theme-color" content="#c22221">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/datepicker.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1179.css" media="print, (max-width: 1179px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="close"></button>
+
+					<div class="mob_scroll">
+						<div class="top">
+							<div class="cont row">
+								<div class="links">
+									<div class="item">
+										<a href="/">О компании</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Условия проката</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Автопарк</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Тарифы</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Отзывы</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Контакты и реквизиты</a>
+									</div>
+								</div>
+
+								<button class="order_btn">
+									<span>Забронировать онлайн</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+								</button>
+							</div>
+						</div>
+
+
+						<div class="info">
+							<div class="cont row">
+								<div class="logo">
+									<img src="images/logo.png" alt="">
+								</div>
+
+								<div class="location">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+									<span>Москва, ул.Ярославская, д.15,<br> корп.3, 1-й этаж,офис 34</span>
+								</div>
+
+								<div class="time">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_time"></use></svg>
+									<span>Пн-Пт с 10 до 20ч.<br> Сб-Вс с 11 до 19ч</span>
+								</div>
+
+								<div class="contacts">
+									<div class="phone">
+										<a href="tel:+74957783272">+7 495 778-32-72</a>
+									</div>
+
+									<div class="email">
+										<a href="mailto:karatrent@mail.ru">karatrent@mail.ru</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="bottom">
+							<div class="cont">
+								<nav class="menu">
+									<div class="item home">
+										<a class="active">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_home"></use></svg>
+										</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Хиты месяца</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Эконом</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Средний</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Бизнес</a>
+									</div>
+
+									<div class="item autopark">
+										<a href="/">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_auto"></use></svg>
+											<span>Автопарк</span>
+										</a>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont">
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<div class="contacts">
+							<div class="phone">
+								<a href="tel:+74957783272">+7 495 778-32-72</a>
+							</div>
+
+							<div class="email">
+								<a href="mailto:karatrent@mail.ru">karatrent@mail.ru</a>
+							</div>
+						</div>
+
+						<button class="order_btn">Забронировать онлайн</button>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</section>
+
+
+				<section class="main_slider">
+					<div class="cont">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="slide swiper-slide">
+									<div class="info">
+										<div class="title">Аренда автомобилей в Москве</div>
+
+										<div class="items">
+											<div>большой автопарк</div>
+											<div>страховые гарантии ОСАГО и КАСКО</div>
+											<div>приятные цены</div>
+										</div>
+
+										<a href="/" class="link">
+											<span>Выбрать авто</span>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+										</a>
+									</div>
+
+									<div class="bg lozad" data-background-image="images/tmp/main_slider_img.jpg"></div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="info">
+										<div class="title">Аренда автомобилей в Москве</div>
+
+										<div class="items">
+											<div>большой автопарк</div>
+											<div>страховые гарантии ОСАГО и КАСКО</div>
+											<div>приятные цены</div>
+										</div>
+
+										<a href="/" class="link">
+											<span>Выбрать авто</span>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+										</a>
+									</div>
+
+									<div class="bg lozad" data-background-image="images/tmp/main_slider_img.jpg"></div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="info">
+										<div class="title">Аренда автомобилей в Москве</div>
+
+										<div class="items">
+											<div>большой автопарк</div>
+											<div>страховые гарантии ОСАГО и КАСКО</div>
+											<div>приятные цены</div>
+										</div>
+
+										<a href="/" class="link">
+											<span>Выбрать авто</span>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+										</a>
+									</div>
+
+									<div class="bg lozad" data-background-image="images/tmp/main_slider_img.jpg"></div>
+								</div>
+							</div>
+
+							<div class="swiper-button-prev">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow_left"></use></svg>
+							</div>
+
+							<div class="swiper-button-next">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow_right"></use></svg>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="products block">
+					<div class="cont">
+						<div class="row">
+							<div class="product">
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb.jpg" alt="" class="lozad">
+
+									<div class="sticker stock">Акция</div>
+								</a>
+
+								<div class="name">
+									<a href="/">Хундай Солярис акпп</a>
+								</div>
+
+								<div class="bottom">
+									<div class="price">1200 руб*</div>
+
+									<button class="order_btn">
+										<span>Заказать</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+									</button>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb2.jpg" alt="" class="lozad">
+
+									<div class="sticker stock">Акция</div>
+								</a>
+
+								<div class="name">
+									<a href="/">Ниссан Альмера IV</a>
+								</div>
+
+								<div class="bottom">
+									<div class="price">1200 руб*</div>
+
+									<button class="order_btn">
+										<span>Заказать</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+									</button>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb3.jpg" alt="" class="lozad">
+
+									<div class="sticker stock">Акция</div>
+								</a>
+
+								<div class="name">
+									<a href="/">Лада Ларгус 5-7 мест</a>
+								</div>
+
+								<div class="bottom">
+									<div class="price">1200 руб*</div>
+
+									<button class="order_btn">
+										<span>Заказать</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+									</button>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb4.jpg" alt="" class="lozad">
+
+									<div class="sticker stock">Акция</div>
+								</a>
+
+								<div class="name">
+									<a href="/">Форд Фиеста седан</a>
+								</div>
+
+								<div class="bottom">
+									<div class="price">1200 руб*</div>
+
+									<button class="order_btn">
+										<span>Заказать</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+									</button>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb5.jpg" alt="" class="lozad">
+
+									<div class="sticker stock">Акция</div>
+								</a>
+
+								<div class="name">
+									<a href="/">Рено Логан NEW акпп</a>
+								</div>
+
+								<div class="bottom">
+									<div class="price">1200 руб*</div>
+
+									<button class="order_btn">
+										<span>Заказать</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+									</button>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb6.jpg" alt="" class="lozad">
+								</a>
+
+								<div class="name">
+									<a href="/">Форд Фокус</a>
+								</div>
+
+								<div class="bottom">
+									<div class="price">1200 руб*</div>
+
+									<button class="order_btn">
+										<span>Заказать</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+									</button>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="all_link">
+							<a href="/" class="link">Все популярные модели</a>
+
+							<div class="exp">* цена при заказе автомобиля свыше 30 дней</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="why block">
+					<div class="cont">
+						<div class="data">
+							<div class="block_head">
+								<div class="title">Почему клиенты обаращаются<br> в Karatrent?</div>
+							</div>
+
+
+							<div class="advantages">
+								<div class="row">
+									<div class="item">
+										<div class="icon">
+											<img data-src="images/ic_advantage1.svg" alt="" class="lozad">
+										</div>
+
+										<div class="name">бытсро</div>
+
+										<div class="desc">вся процедура оформления договора занимает 15 минут</div>
+									</div>
+
+									<div class="item">
+										<div class="icon">
+											<img data-src="images/ic_advantage2.svg" alt="" class="lozad">
+										</div>
+
+										<div class="name">дешево</div>
+
+										<div class="desc">привлекательные цены и выгодная система скидок для постоянных клиентов</div>
+									</div>
+
+									<div class="item">
+										<div class="icon">
+											<img data-src="images/ic_advantage3.svg" alt="" class="lozad">
+										</div>
+
+										<div class="name">надежно</div>
+
+										<div class="desc">все автомобили застрахованы по программам КАСКО и ОСАГО</div>
+									</div>
+
+									<div class="item">
+										<div class="icon">
+											<img data-src="images/ic_advantage4.svg" alt="" class="lozad">
+										</div>
+
+										<div class="name">Совсременный автопарк</div>
+
+										<div class="desc">все автомобили не старше 2015 года выпуска</div>
+									</div>
+
+									<div class="item">
+										<div class="icon">
+											<img data-src="images/ic_advantage5.svg" alt="" class="lozad">
+										</div>
+
+										<div class="name">Помощь в выборе</div>
+
+										<div class="desc">профессиональные консультации специалистов и помощь в выборе автомобиля</div>
+									</div>
+
+									<div class="item">
+										<div class="icon">
+											<img data-src="images/ic_advantage6.svg" alt="" class="lozad">
+										</div>
+
+										<div class="name">выбор класса авто</div>
+
+										<div class="desc">прокат авто разных ценовых категорий, от бюджетных, до автомобилей бизнес класса</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="terms">
+								<div class="block_head">
+									<div class="title">Основные<br> условия проката</div>
+
+									<div class="all_link">
+										<a href="/">
+											<span>Все условия</span>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+										</a>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="item">Возраст арендатора не<br> менее 23-х лет</div>
+									<div class="item">Стаж вождения не<br> менее 3-х лет</div>
+									<div class="item">Паспорт РФ</div>
+									<div class="item">Водительское удостоверение </div>
+								</div>
+
+								<button class="order_btn">
+									<span>Забронировать онлайн</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+								</button>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="bottom_text block">
+					<div class="cont">
+						<div class="text_block">
+							<h2>Аренда автомобилей в Москве (Н2)</h2>
+
+							<p>Аренда автомобилей в Москве – всегда востребованная услуга. Аренда авто пользуется спросом как у гостей столицы, приехавших с деловыми или туристическими целями, так и местных жителей. В рабочие дни удобнее и быстрее передвигаться на метро, однако в выходные и праздничные дни аренда автомобилей в Москве на короткий срок становится более привлекательным решением. Как правило, требуется аренда авто без водителя. Арендовать авто без водителя очень просто. Прежде всего, необходимо выбрать подходящий автомобиль на сайте прокатной компании. Затем оставить заявку, в которой должны быть указаны следующие данные: марка авто, планируемый срок аренды, основная информация о водителе. Когда предполагается аренда автомобилей без водителя, важно понимать, что прокатные компании готовы доверить транспорт из своего автопарка далеко не каждому. Внимание: все специальные предложения действуют при аренде автомобиля от трёх суток! Основные требования, которые предъявляются к желающим воспользоваться услугой аренды:</p>
+
+							<h3>Аренда и прокат автомобилей для физических лиц, граждан РФ (Н3)</h3>
+
+							<ul>
+								<li>паспорт гражданина РФ;</li>
+								<li>водительское удостоверение;</li>
+								<li>возраст от 23 лет;</li>
+								<li>стаж вождения от 3 лет.</li>
+							</ul>
+
+							<h3>Для арендаторов, которые не являются гражданами России</h3>
+
+							<ul>
+								<li>сохраняются возрастные ограничения;</li>
+								<li>аналогичные требования к водительскому стажу;</li>
+								<li>дополнительно предоставляется нотариально заверенный перевод водительского удостоверения и паспорта.</li>
+							</ul>
+
+							<h3>Прокат автомобилей для юридических лиц</h3>
+
+							<ul>
+								<li>учетная карточка организации;</li>
+								<li>доверенность от организации.</li>
+							</ul>
+
+							<h3>Выбирая прокатную компанию, важно учитывать следующие моменты:</h3>
+
+							<ul>
+								<li>история компании;</li>
+								<li>технические характеристики автомобилей, которые предоставляются в аренду;</li>
+								<li>стоимость услуг проката и аренды автомобиля;</li>
+							</ul>
+						</div>
+					</div>
+
+					<img data-src="images/bg_bottom_text.png" alt="" class="bg lozad">
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="col_left">
+						<div class="logo">
+							<img src="images/logo2.png" alt="">
+						</div>
+
+						<div class="location">Москва, ул.Ярославская, д.15,<br> корп.3, 1-й этаж,офис 34</div>
+
+						<div class="copyright">&copy; 2007-2020</div>
+					</div>
+
+
+					<div class="menu">
+						<div><a href="/">О компании</a></div>
+						<div><a href="/">Условия проката</a></div>
+						<div><a href="/">Тарифы</a></div>
+						<div><a href="/">Отзывы клиентов</a></div>
+						<div><a href="/">Контакты и реквизиты</a></div>
+					</div>
+
+
+					<div class="menu">
+						<div><a href="/">Хиты месяца</a></div>
+						<div><a href="/">Эконом класс</a></div>
+						<div><a href="/">Средний класс</a></div>
+						<div><a href="/">Бизнес класс</a></div>
+						<div><a href="/">Автопарк</a></div>
+					</div>
+
+
+					<div class="contacts">
+						<div class="phone">
+							<a href="tel:+74957783272">+7 495 778-32-72</a>
+						</div>
+
+						<button class="order_btn">
+							<span>Забронировать</span>
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+						</button>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/datepicker.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

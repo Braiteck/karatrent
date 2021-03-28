@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#c22221">
+		<meta name="theme-color" content="#c22221">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/datepicker.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1179.css" media="print, (max-width: 1179px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="close"></button>
+
+					<div class="mob_scroll">
+						<div class="top">
+							<div class="cont row">
+								<div class="links">
+									<div class="item">
+										<a href="/">О компании</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Условия проката</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Автопарк</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Тарифы</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Отзывы</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Контакты и реквизиты</a>
+									</div>
+								</div>
+
+								<button class="order_btn">
+									<span>Забронировать онлайн</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+								</button>
+							</div>
+						</div>
+
+
+						<div class="info">
+							<div class="cont row">
+								<div class="logo">
+									<img src="images/logo.png" alt="">
+								</div>
+
+								<div class="location">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+									<span>Москва, ул.Ярославская, д.15,<br> корп.3, 1-й этаж,офис 34</span>
+								</div>
+
+								<div class="time">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_time"></use></svg>
+									<span>Пн-Пт с 10 до 20ч.<br> Сб-Вс с 11 до 19ч</span>
+								</div>
+
+								<div class="contacts">
+									<div class="phone">
+										<a href="tel:+74957783272">+7 495 778-32-72</a>
+									</div>
+
+									<div class="email">
+										<a href="mailto:karatrent@mail.ru">karatrent@mail.ru</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="bottom">
+							<div class="cont">
+								<nav class="menu">
+									<div class="item home">
+										<a href="/">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_home"></use></svg>
+										</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Хиты месяца</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Эконом</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Средний</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Бизнес</a>
+									</div>
+
+									<div class="item autopark">
+										<a class="active">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_auto"></use></svg>
+											<span>Автопарк</span>
+										</a>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont">
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<div class="contacts">
+							<div class="phone">
+								<a href="tel:+74957783272">+7 495 778-32-72</a>
+							</div>
+
+							<div class="email">
+								<a href="mailto:karatrent@mail.ru">karatrent@mail.ru</a>
+							</div>
+						</div>
+
+						<button class="order_btn">Забронировать онлайн</button>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</section>
+
+
+				<section class="breadcrumbs">
+					<div class="cont">
+						<a href="/">Главная</a> <span class="sep">/</span>
+						<a href="/">Автопарк</a> <span class="sep">/</span>
+						<span class="current">Лада Ларгус</span>
+					</div>
+				</section>
+
+
+				<section class="product_info block">
+					<div class="cont">
+						<div class="head">
+							<h1 class="page_title">Лада Ларгус</h1>
+
+							<div class="status green">Свободно</div>
+							<!-- <div class="status red">Занято</div> -->
+						</div>
+
+
+						<div class="data">
+							<div class="images left">
+								<div class="sticker stock">Акция</div>
+
+								<div class="swiper-container big">
+									<div class="swiper-wrapper">
+										<div class="slide swiper-slide">
+											<a href="images/tmp/product_img.jpg" class="img fancy_img">
+												<img data-src="images/tmp/product_img.jpg" alt="" class="lozad">
+											</a>
+										</div>
+
+										<div class="slide swiper-slide">
+											<a href="images/tmp/product_img.jpg" class="img fancy_img">
+												<img data-src="images/tmp/product_img.jpg" alt="" class="lozad">
+											</a>
+										</div>
+
+										<div class="slide swiper-slide">
+											<a href="images/tmp/product_img.jpg" class="img fancy_img">
+												<img data-src="images/tmp/product_img.jpg" alt="" class="lozad">
+											</a>
+										</div>
+									</div>
+
+									<div class="swiper-button-prev">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow_left"></use></svg>
+									</div>
+
+									<div class="swiper-button-next">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow_right"></use></svg>
+									</div>
+								</div>
+
+								<div class="swiper-container thumbs">
+									<div class="swiper-wrapper">
+										<div class="slide swiper-slide">
+											<div class="img">
+												<img data-src="images/tmp/product_thumbs_img1.jpg" alt="" class="lozad">
+											</div>
+										</div>
+
+										<div class="slide swiper-slide">
+											<div class="img">
+												<img data-src="images/tmp/product_thumbs_img2.jpg" alt="" class="lozad">
+											</div>
+										</div>
+
+										<div class="slide swiper-slide">
+											<div class="img">
+												<img data-src="images/tmp/product_thumbs_img3.jpg" alt="" class="lozad">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="info right">
+								<div class="prices">
+									<div class="title">Тарифы на аренду</div>
+
+									<div class="list">
+										<div>
+											<div class="name">2-5 дней</div>
+											<div class="price">1 500 руб.</div>
+										</div>
+
+										<div>
+											<div class="name">6-15 дней</div>
+											<div class="price">1 500 руб.</div>
+										</div>
+
+										<div>
+											<div class="name">16-30 дней</div>
+											<div class="price">1 500 руб.</div>
+										</div>
+
+										<div>
+											<div class="name">свыше 30 дней</div>
+											<div class="price">1 100 руб.</div>
+										</div>
+
+										<div class="red">
+											<div class="name">Сумма залога</div>
+											<div class="price">7 000 руб.</div>
+										</div>
+
+										<div>
+											<div class="name full">Без ограничения пробега по Москве и МО</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="stock_info">
+									<div class="title">АКЦИЯ</div>
+
+									<div class="desc">Закажите авто Лада Ларгус 5-7 мест более, чем на 30 дней и дельнейшее описание условий акции в три строки</div>
+
+									<div class="period">
+										<div class="label">Выберите период аренды</div>
+
+										<div class="form">
+											<div class="field row">
+												<div>
+													<div class="prefix">с</div>
+													<select name="">
+														<option value="0" data-display=""></option>
+														<option value="1">11.02.2021</option>
+														<option value="2">11.02.2021</option>
+														<option value="3">11.02.2021</option>
+													</select>
+												</div>
+
+												<div>
+													<div class="prefix">до</div>
+													<select name="">
+														<option value="0" data-display=""></option>
+														<option value="1">11.02.2021</option>
+														<option value="2">11.02.2021</option>
+														<option value="3">11.02.2021</option>
+													</select>
+												</div>
+											</div>
+										</div>
+
+										<div class="price"><b>27 000 р*</b> за 18 дней</div>
+									</div>
+
+									<button class="order_btn">
+										<span>Забронировать</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+									</button>
+
+									<div class="exp">* стоимость расчитана по тарифу будничного дня</div>
+								</div>
+
+								<div class="warning">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_warning"></use></svg>
+
+									Акция действует при заключениии договора аренды на срок более трёх дней.
+								</div>
+							</div>
+
+
+							<div class="features left">
+								<div class="title">Аренда автомобиля Лада Ларгус 5-7 мест</div>
+
+								<div class="row">
+									<div>
+										<div class="name">Основные<br> характеристики</div>
+
+										<div class="list">
+											<div>Цвет <b>белый</b></div>
+											<div>Двигатель <b>1.6/102 л.с.</b></div>
+											<div>МКПП</div>
+											<div>Кузов <b>универсал 5 дв.,5-7 мест</b></div>
+											<div>Бензобак <b>50 л.</b></div>
+											<div>Год выпуска <b>2018</b></div>
+										</div>
+									</div>
+
+									<div>
+										<div class="name">Комплектация</div>
+
+										<div class="items">
+											<div>CD-проигрыватель</div>
+											<div>АBS</div>
+											<div>МКПП</div>
+											<div>Кондиционер</div>
+											<div>Подогрев зеркал</div>
+											<div>Подогрев сидений</div>
+											<div>Подушка безопасности водителя</div>
+											<div>Подушка безопасности пассажира</div>
+											<div>Задний парктроник</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="products block">
+					<div class="cont">
+						<div class="block_title">Вас могут заинтересовать</div>
+
+						<div class="row">
+							<div class="product">
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb.jpg" alt="" class="lozad">
+
+									<div class="sticker stock">Акция</div>
+								</a>
+
+								<div class="name">
+									<a href="/">Хундай Солярис акпп</a>
+								</div>
+
+								<div class="bottom">
+									<div class="price">1200 руб*</div>
+
+									<button class="order_btn">
+										<span>Заказать</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+									</button>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb2.jpg" alt="" class="lozad">
+
+									<div class="sticker stock">Акция</div>
+								</a>
+
+								<div class="name">
+									<a href="/">Ниссан Альмера IV</a>
+								</div>
+
+								<div class="bottom">
+									<div class="price">1200 руб*</div>
+
+									<button class="order_btn">
+										<span>Заказать</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+									</button>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb3.jpg" alt="" class="lozad">
+
+									<div class="sticker stock">Акция</div>
+								</a>
+
+								<div class="name">
+									<a href="/">Лада Ларгус 5-7 мест</a>
+								</div>
+
+								<div class="bottom">
+									<div class="price">1200 руб*</div>
+
+									<button class="order_btn">
+										<span>Заказать</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+									</button>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="all_link">
+							<a href="/" class="link">Все популярные модели</a>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="col_left">
+						<div class="logo">
+							<img src="images/logo2.png" alt="">
+						</div>
+
+						<div class="location">Москва, ул.Ярославская, д.15,<br> корп.3, 1-й этаж,офис 34</div>
+
+						<div class="copyright">&copy; 2007-2020</div>
+					</div>
+
+
+					<div class="menu">
+						<div><a href="/">О компании</a></div>
+						<div><a href="/">Условия проката</a></div>
+						<div><a href="/">Тарифы</a></div>
+						<div><a href="/">Отзывы клиентов</a></div>
+						<div><a href="/">Контакты и реквизиты</a></div>
+					</div>
+
+
+					<div class="menu">
+						<div><a href="/">Хиты месяца</a></div>
+						<div><a href="/">Эконом класс</a></div>
+						<div><a href="/">Средний класс</a></div>
+						<div><a href="/">Бизнес класс</a></div>
+						<div><a href="/">Автопарк</a></div>
+					</div>
+
+
+					<div class="contacts">
+						<div class="phone">
+							<a href="tel:+74957783272">+7 495 778-32-72</a>
+						</div>
+
+						<button class="order_btn">
+							<span>Забронировать</span>
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow"></use></svg>
+						</button>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/datepicker.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
