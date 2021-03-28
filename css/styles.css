@@ -294,6 +294,11 @@ button
     margin-right: var(--scroll_width) !important;
 }
 
+.compensate-for-scrollbar header.fixed
+{
+    padding-right: var(--scroll_width) !important;
+}
+
 
 .lozad
 {
@@ -443,6 +448,11 @@ button
 /*------------
     Header
 ------------*/
+.header_wrap
+{
+    margin-bottom: 1px;
+}
+
 header
 {
     position: relative;
@@ -852,6 +862,11 @@ header .menu .item > a.active:after
 
 
 
+.mob_header_wrap
+{
+    display: none;
+}
+
 .mob_header
 {
     position: relative;
@@ -918,22 +933,44 @@ header .menu .item > a.active:after
 }
 
 
-.mob_header .contacts .email
+.mob_header .contacts .schema_link
 {
     color: #c22221;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
-    line-height: 21px;
+    line-height: 20px;
+
+    margin-top: 4px;
 
     white-space: nowrap;
     letter-spacing: .03em;
 }
 
-.mob_header .contacts .email a
+.mob_header .contacts .schema_link a
 {
     color: currentColor;
 
+    display: flex;
+
+    margin-left: auto;
+
     text-decoration: none;
+
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.mob_header .contacts .schema_link .icon
+{
+    display: block;
+
+    width: 16px;
+    height: 20px;
+    margin-right: 8px;
+
+    fill: #c22221;
 }
 
 
@@ -1012,6 +1049,71 @@ header .menu .item > a.active:after
 .mob_header .mob_menu_btn span:after
 {
     top: 8px;
+}
+
+
+
+header.fixed
+{
+    position: fixed;
+
+    margin: 0;
+
+    -webkit-animation: moveDown .5s;
+            animation: moveDown .5s;
+
+    background: #fff;
+}
+
+header.fixed .info,
+header.fixed .bottom
+{
+    display: none;
+}
+
+
+.mob_header.fixed
+{
+    position: fixed;
+
+    margin: 0;
+
+    -webkit-animation: moveDown .5s;
+            animation: moveDown .5s;
+
+    background: #fff;
+}
+
+.mob_header.fixed .logo a,
+.mob_header.fixed .logo img
+{
+    width: 148px;
+}
+
+
+@-webkit-keyframes moveDown
+{
+    0%
+    {
+        -webkit-transform: translateY(-52px);
+                transform: translateY(-52px);
+    }
+}
+@-moz-keyframes moveDown
+{
+    0%
+    {
+        -webkit-transform: translateY(-52px);
+                transform: translateY(-52px);
+    }
+}
+@keyframes moveDown
+{
+    0%
+    {
+        -webkit-transform: translateY(-52px);
+                transform: translateY(-52px);
+    }
 }
 
 
@@ -4543,6 +4645,30 @@ footer .phone
 }
 
 footer .phone a
+{
+    color: currentColor;
+
+    text-decoration: none;
+}
+
+
+
+footer .email
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+    display: none;
+
+    margin-top: 12px;
+
+    white-space: nowrap;
+    letter-spacing: .03em;
+}
+
+footer .email a
 {
     color: currentColor;
 

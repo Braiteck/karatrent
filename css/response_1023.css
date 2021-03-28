@@ -28,9 +28,17 @@
     /*------------
         Header
     ------------*/
-    .mob_header
+    .mob_header,
+    .mob_header_wrap
     {
         display: block;
+    }
+
+
+    .header_wrap
+    {
+        height: auto !important;
+        margin-bottom: 0;
     }
 
 
@@ -50,6 +58,14 @@
 
         transition: transform .3s linear;
         transform: translateX(-100%);
+
+        background: #656565;
+    }
+
+    header.fixed
+    {
+        -webkit-animation: none;
+                animation: none;
 
         background: #656565;
     }
@@ -1028,6 +1044,12 @@
     footer .phone
     {
         font-size: 21px;
+    }
+
+
+    footer .email
+    {
+        display: block;
     }
 
 

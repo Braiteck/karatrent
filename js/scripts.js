@@ -62,6 +62,26 @@ $(window).on('load', () => {
 	$('.products .row').each(function () {
 		productHeight($(this), parseInt($(this).css('--products_count')))
 	})
+
+
+	// Фикс. шапка
+	headerInit = true,
+		headerHeight = $('header').outerHeight(),
+		mobHeaderHeight = $('.mob_header').outerHeight()
+
+	$('header').wrap('<div class="header_wrap"></div>')
+	$('.header_wrap').height(headerHeight)
+
+	$('.mob_header').wrap('<div class="mob_header_wrap"></div>')
+	$('.mob_header_wrap').height(mobHeaderHeight)
+
+	headerInit && $(window).scrollTop() > headerHeight
+		? $('header').addClass('fixed')
+		: $('header').removeClass('fixed')
+
+	headerInit && $(window).scrollTop() > mobHeaderHeight
+		? $('.mob_header').addClass('fixed')
+		: $('.mob_header').removeClass('fixed')
 })
 
 
@@ -71,6 +91,42 @@ $(window).resize(() => {
 	$('.products .row').each(function () {
 		productHeight($(this), parseInt($(this).css('--products_count')))
 	})
+
+
+	// Фикс. шапка
+	headerInit = false
+	$('.header_wrap').height('auto')
+	$('.mob_header_wrap').height('auto')
+
+	setTimeout(() => {
+		headerInit = true
+		headerHeight = $('header').outerHeight()
+		mobHeaderHeight = $('.mob_header').outerHeight()
+
+		$('.header_wrap').height(headerHeight)
+		$('.mob_header_wrap').height(mobHeaderHeight)
+
+		headerInit && $(window).scrollTop() > headerHeight
+			? $('header').addClass('fixed')
+			: $('header').removeClass('fixed')
+
+		headerInit && $(window).scrollTop() > mobHeaderHeight
+			? $('.mob_header').addClass('fixed')
+			: $('.mob_header').removeClass('fixed')
+	}, 100)
+})
+
+
+
+$(window).scroll(() => {
+	// Фикс. шапка
+	typeof headerInit !== 'undefined' && headerInit && $(window).scrollTop() > headerHeight
+		? $('header').addClass('fixed')
+		: $('header').removeClass('fixed')
+
+	typeof headerInit !== 'undefined' && headerInit && $(window).scrollTop() > mobHeaderHeight
+		? $('.mob_header').addClass('fixed')
+		: $('.mob_header').removeClass('fixed')
 })
 
 
